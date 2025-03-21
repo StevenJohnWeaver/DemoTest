@@ -1,9 +1,11 @@
 variable "vpc_id" {
   type = string
+  default = "Default"
 }
 
 variable "subnet_id" {
   type = string
+  default = "Default"
 }
 
 provider "aws" {
